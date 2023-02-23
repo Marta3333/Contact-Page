@@ -97,6 +97,11 @@ footer.newColor{
   background-color: #000000;
   height: 56px;
 }
+@media (max-width: 699px){
+  div.row.myRow{
+    height:auto;
+  }
+}
 @media (max-width: 300px){
   h1.card-title{
     font-size: 25px;
