@@ -98,11 +98,17 @@ footer.newColor{
   height: 56px;
 }
 
-@media (max-width: 300px){
-  h1.card-title{
-    font-size: 25px;
-  }
-  label.message{
-    font-size: 16px;
-  }
+@media only screen
+  and (min-device-width: 800px)
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    h1.card-title{
+      font-size: 25px;
+    }
+    label.message{
+      font-size: 16px;
+    }
+    div.myRow{
+      height: auto;
+    }
 }
