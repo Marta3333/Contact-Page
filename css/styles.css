@@ -119,7 +119,7 @@ div.newColor{
 
 @media (max-width: 768px){
   div.card-body{
-    height: auto;
+    height: 100vh;
   }
   input.fill{
     max-width: 100%;
