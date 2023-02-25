@@ -1,17 +1,21 @@
-html, body{
+/* html, body{
   height: 100vh;
-}
+} */
 
 body.myBody{
   background-color: #2f3236;
 }
 
-div.myRow{
+div.card-body{
+  height: 100vh;
+}
+
+/* div.myRow{
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 button.navbar-toggler.btn.btn-light{
   background-color: #D3D3D3;
@@ -116,14 +120,11 @@ footer.newColor{
   background-color: #000000;
 }
 
-@media (max-width: 768px){
+@media (max-width: 360px){
     h1.titleContact{
       font-size: 25px;
     }
     label.message{
       font-size: 16px;
-    }
-    div.myRow{
-      height: auto;
     }
 }
