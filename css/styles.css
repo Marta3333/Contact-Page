@@ -116,8 +116,14 @@ footer.newColor{
   background-color: #000000;
 }
 
-@media (max-width: 360px){
-  div.content{
-    padding: 0;
-  }
+@media (max-width: 768px){
+    h1.titleContact{
+      font-size: 25px;
+    }
+    label.message{
+      font-size: 16px;
+    }
+    div.myRow{
+      height: auto;
+    }
 }
