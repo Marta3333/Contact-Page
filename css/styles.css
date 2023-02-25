@@ -12,6 +12,7 @@ div.card-header{
 
 div.card-body{
   height: 100vh;
+  padding: 0;
 }
 
 div.card{
@@ -20,6 +21,10 @@ div.card{
 
 div.card-body{
   background-color: #2f3236;
+}
+
+a.nav-link{
+  text-align: left;
 }
 
 /* div.myRow{
