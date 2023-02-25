@@ -1,7 +1,3 @@
-/* html, body{
-  height: 100vh;
-} */
-
 body.myBody{
   background-color: #2f3236;
 }
@@ -26,13 +22,6 @@ div.card-body{
 a.nav-link{
   text-align: left;
 }
-
-/* div.myRow{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 button.navbar-toggler.btn.btn-light{
   background-color: #D3D3D3;
