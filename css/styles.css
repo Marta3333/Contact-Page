@@ -117,18 +117,6 @@ footer.newColor{
 }
 
 @media (max-width: 360px){
-  h1.titleContact{
-    font-size: 25px;
-  }
-  label.message{
-    font-size: 16px;
-  }
-/*     input.fill{
-    max-width: 100%;
-  }
-  textarea{
-    max-width: 100%;
-  } */
   div.content{
     padding: 0;
   }
