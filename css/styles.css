@@ -6,8 +6,20 @@ body.myBody{
   background-color: #2f3236;
 }
 
+div.card-header{
+  padding: 0;
+}
+
 div.card-body{
   height: 100vh;
+}
+
+div.card{
+  background-color: #2f3236;
+}
+
+div.card-body{
+  background-color: #2f3236;
 }
 
 /* div.myRow{
