@@ -1,26 +1,37 @@
+html, body{
+ height: 100vh;
+}
 body.myBody{
   background-color: #2f3236;
 }
 
 div.card-header{
   padding: 0;
+  background-color: #000000;
 }
 
 div.card-body{
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
+  background-color: #2f3236;
+  text-align: center;
 }
 
 div.card{
   background-color: #2f3236;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
 }
 
-div.card-body{
-  background-color: #2f3236;
-}
-
-a.nav-link{
+a.nav-link.text-white.navbar-text{
   text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 button.navbar-toggler.btn.btn-light{
@@ -36,20 +47,8 @@ ul{
   display: flex;
 }
 
-.newColor{
-  background-color: #000000;
-}
-
-div.card{
-  border: 0;
-}
-
-div.contactPadding{
-  padding: 10px;
-}
-
 form.formContact{
-  margin-bottom: 10px;
+  margin: 10px 0 10px;
 }
 
 h1.titleContact{
@@ -57,9 +56,8 @@ h1.titleContact{
   font-size: 50px;
   color: #2bd3d6;
   text-align: center;
-  margin-bottom: 16px;
-  padding-bottom: 50px;
-  font-weight: bold; 
+  font-weight: bold;
+  margin: 20px auto 30px;
 }
 
 p.copyrightOther{
@@ -67,7 +65,7 @@ p.copyrightOther{
   padding: 0;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -82,14 +80,21 @@ a:hover {
   color: #7791c9;
 }
 
-label.message{
+label.message.text-color{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
   color: #ffffff;
 }
 
-.message-label {
+label.message.text-color.message-label {
   padding: 0 0 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+textarea.resize{
+  resize: both;
 }
 
 button.contactSendButton{
@@ -124,13 +129,4 @@ footer.card-footer{
 
 footer.newColor{
   background-color: #000000;
-}
-
-@media (max-width: 360px){
-    h1.titleContact{
-      font-size: 25px;
-    }
-    label.message{
-      font-size: 16px;
-    }
 }
