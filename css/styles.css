@@ -97,36 +97,27 @@ textarea.resize{
   resize: both;
 }
 
-button.contactSendButton{
+button.send_button{
   color: #2bd3d6;
   background-color: #000000;
   border-color: #000000;
   font-family: 'Source Sans Pro', sans-serif;
-
-}
-
-.send_button {
   margin-top: 10px;
   border: 0;
   padding: 0 10px;
-  color: #2f3236;
   font-weight: bold;
   font-size: 25px;
-  background-color: #D3D3D3;
-  border: 1px solid #D3D3D3;
+  border: 2px solid #2bd3d6;
   border-radius: 5px;
+
 }
 
-button.contactSendButton:hover{
+button.send_button:hover{
   color: #ffffff;
-  background-color: #000000;
-  border-color: #000000;
+  border-color: #ffffff;
 }
 
 footer.card-footer{
   height: 56px;
-}
-
-footer.newColor{
   background-color: #000000;
 }
