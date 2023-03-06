@@ -1,102 +1,65 @@
 html, body{
- height: 100vh;
+  height: 100vh;
 }
 body.myBody{
   background-color: #2f3236;
 }
-
-div.card-header{
-  padding: 0;
+header.card-header{
   background-color: #000000;
-}
-
-div.card-body{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  background-color: #2f3236;
-  text-align: center;
-}
-
-div.card{
-  background-color: #2f3236;
-  padding: 0;
   border: 0;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
-
-a.nav-link.text-white.navbar-text{
-  text-align: left;
+a.nav-link{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
-  color: #ffffff;
 }
-
-button.navbar-toggler.btn.btn-light{
+ul.nav a.nav-link:hover {
+  color: #a39e9e !important;
+}
+button.navbar-toggler{
   background-color: #D3D3D3;
 }
-
-.navbar-toggler-icon{
-  background-color: #D3D3D3;
-  border-radius: 5px;
+button.navbar-toggler:hover{
+  background-color: #a39e9e;
+  border-color: #a39e9e;
 }
-
-ul{
-  display: flex;
-}
-
-form.formContact{
-  margin: 10px 0 10px;
-}
-
-h1.titleContact{
+h1.card-title{
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color: #2bd3d6;
-  text-align: center;
   font-weight: bold;
-  margin: 20px auto 30px;
-}
-
-p.copyrightOther{
-  margin: 0;
-  padding: 0;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-  color: #ffffff;
+  margin: 28px auto 22px;
 }
-
-a {
-  color: #3b5998;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: 'Source Sans Pro', sans-serif;
+div.card{
+  border: 0;
+  border-radius: 0;
 }
-
-a:hover {
-  color: #7791c9;
+div.card-body{
+  height: 100vh;
+  background-color: #2f3236;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 0;
+  border-radius: 0;
 }
-
 label.message.text-color{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
   color: #ffffff;
 }
-
 label.message.text-color.message-label {
   padding: 0 0 10px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
   color: #ffffff;
 }
-
 textarea.resize{
   resize: both;
 }
-
 button.send_button{
   color: #2bd3d6;
   background-color: #000000;
@@ -109,15 +72,15 @@ button.send_button{
   font-size: 25px;
   border: 2px solid #2bd3d6;
   border-radius: 5px;
-
 }
-
 button.send_button:hover{
   color: #ffffff;
   border-color: #ffffff;
 }
-
 footer.card-footer{
-  height: 56px;
-  background-color: #000000;
+    background-color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    border: 0;
+    border-radius: 0 !important;
 }
